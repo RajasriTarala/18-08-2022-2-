@@ -1,0 +1,21 @@
+#include<stdio.h>
+void main()
+{
+	int i,j,n,flag,sum=0;
+	int arr[50];
+	int len=sizeof(arr)/sizeof(int);
+	printf("Enter a number:");
+	scanf("%d",&i);
+	for(i=1;i<5;i++)
+	{
+	    i=n%10;
+	    sum=(sum*10)+n;
+	    n=n/10;
+		if(i!=0)
+		{
+			printf("UNIQUE\n");
+	    }
+	    else
+	       printf("DUPLICATE\n");
+	}
+}
